@@ -7,6 +7,7 @@ spec:
   type: NodePort
   selector:
     env: blue
+    app: swiggy
   ports:
     - port: 3000
       targetPort: 3000
