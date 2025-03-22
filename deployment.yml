@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: comt-1
-          image: kamalreddyy/newrepo:v1
+          image: kamalreddyy/newrepo:v2
           ports:
           - containerPort: 3000
