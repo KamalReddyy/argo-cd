@@ -8,10 +8,12 @@ spec:
   selector:
     matchLabels:
       app: swiggy
+      env: green
   template:
     metadata:
       labels:
         app: swiggy
+        env: green
     spec:
       containers:
         - name: comt-1
