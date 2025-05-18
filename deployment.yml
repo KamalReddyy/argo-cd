@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: comt-1
-          image: kamalreddyy/sushma:v1
+          image: kamalreddyy/tetrisv1:latest
           ports:
           - containerPort: 3000
